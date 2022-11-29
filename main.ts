@@ -16,14 +16,14 @@ radio.onReceivedNumber(function (receivedNumber) {
         pins.analogWritePin(AnalogPin.P15, 0)
     } else if (receivedNumber == 3) {
         pins.digitalWritePin(DigitalPin.P13, 1)
-        pins.analogWritePin(AnalogPin.P12, 200)
+        pins.analogWritePin(AnalogPin.P12, 0)
         pins.digitalWritePin(DigitalPin.P16, 0)
         pins.analogWritePin(AnalogPin.P15, 400)
     } else if (receivedNumber == 4) {
         pins.digitalWritePin(DigitalPin.P13, 1)
         pins.analogWritePin(AnalogPin.P12, 400)
         pins.digitalWritePin(DigitalPin.P16, 0)
-        pins.analogWritePin(AnalogPin.P15, 200)
+        pins.analogWritePin(AnalogPin.P15, 0)
     } else {
     	
     }
